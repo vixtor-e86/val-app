@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "For My Valentine ❤️",
-  description: "A special question for a special person",
+  title: "For My Special Valentine ❤️",
+  description: "A lovely surprise for the most special bunny in the world.",
 };
 
 export default function RootLayout({ children }) {
