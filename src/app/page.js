@@ -529,7 +529,7 @@ export default function ValentineApp() {
                   ❤️
                 </motion.div>
                 <div className="flex items-center justify-center">
-                  <h2 className="text-5xl md:text-7xl font-black text-pink-600 drop-shadow-sm">Hi Bunny</h2>
+                  <h2 className="text-5xl md:text-7xl font-black text-pink-600 drop-shadow-sm">Hi By H(Ajoke)</h2>
                 </div>
               </div>
 
@@ -575,7 +575,7 @@ export default function ValentineApp() {
                 transition={{ delay: 0.3 }}
               >
                   <h1 className="text-4xl md:text-6xl font-bold text-pink-700 mb-6 drop-shadow-sm leading-tight">
-                    For My Lovely Bunny ❤️
+                    For My Lovely By H(Ajoke) ❤️
                   </h1>
                   
                   <div className="space-y-4 text-gray-700 text-lg md:text-xl font-medium mb-8 leading-relaxed">
