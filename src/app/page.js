@@ -472,7 +472,8 @@ export default function ValentineApp() {
 
   const handleViewPresents = () => {
     const now = new Date();
-    const target = new Date(now.getFullYear(), 1, 14);
+    const target = new Date(now.getFullYear(), 1, 14); // Feb 14
+    
     if (now < target) {
       setShowOverlay(true);
     } else {

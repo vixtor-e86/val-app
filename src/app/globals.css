@@ -137,3 +137,39 @@ body {
 .gif-transparent {
   mix-blend-mode: multiply;
 }
+
+/* Integrated Project Styles */
+@layer utilities {
+  .clip-path-envelope-flap {
+    clip-path: polygon(0 0, 100% 0, 50% 50%);
+  }
+}
+
+@keyframes reveal {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.section-reveal {
+  view-timeline-name: --section;
+  view-timeline-axis: block;
+  animation-timeline: --section;
+  animation-name: reveal;
+  animation-range: entry 10% cover 30%;
+  animation-fill-mode: both;
+}
+
+/* Custom Scrollbar for the letter */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #9f123920;
+  border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #9f123940;
+}
